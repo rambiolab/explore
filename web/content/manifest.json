@@ -1,0 +1,178 @@
+{
+  "proteins": [
+    {
+      "pdb": "1BTL",
+      "name": "TEM-1",
+      "gene": "blaTEM-1",
+      "host": "Escherichia coli",
+      "mechanism": "inactivation",
+      "drug": "penicillins",
+      "chains": [
+        "A"
+      ],
+      "panres": "pan_2590"
+    },
+    {
+      "pdb": "4HBT",
+      "name": "CTX-M-15",
+      "gene": "blaCTX-M-15",
+      "host": "Escherichia coli",
+      "mechanism": "inactivation",
+      "drug": "cephalosporins",
+      "chains": [
+        "A"
+      ],
+      "panres": "pan_27"
+    },
+    {
+      "pdb": "2OV5",
+      "name": "KPC-2",
+      "gene": "blaKPC-2",
+      "host": "Klebsiella pneumoniae",
+      "mechanism": "inactivation",
+      "drug": "carbapenems",
+      "chains": [
+        "A"
+      ],
+      "panres": "pan_1329"
+    },
+    {
+      "pdb": "3SPU",
+      "name": "NDM-1",
+      "gene": "blaNDM-1",
+      "host": "Klebsiella pneumoniae",
+      "mechanism": "inactivation",
+      "drug": "carbapenems",
+      "chains": [
+        "A"
+      ],
+      "panres": "pan_3"
+    },
+    {
+      "pdb": "3HBR",
+      "name": "OXA-48",
+      "gene": "blaOXA-48",
+      "host": "Klebsiella pneumoniae",
+      "mechanism": "inactivation",
+      "drug": "carbapenems",
+      "chains": [
+        "A",
+        "B"
+      ],
+      "panres": "pan_400"
+    },
+    {
+      "pdb": "1V0C",
+      "name": "AAC(6')-Ib",
+      "gene": "aac(6')-Ib",
+      "host": "Escherichia coli",
+      "mechanism": "inactivation",
+      "drug": "aminoglycosides",
+      "chains": [
+        "A"
+      ],
+      "panres": "pan_2759"
+    },
+    {
+      "pdb": "1VQQ",
+      "name": "PBP2a",
+      "gene": "mecA",
+      "host": "Staphylococcus aureus",
+      "mechanism": "replacement",
+      "drug": "betalactams",
+      "chains": [
+        "A"
+      ],
+      "panres": "pan_4203"
+    },
+    {
+      "pdb": "1E4E",
+      "name": "VanA",
+      "gene": "vanA",
+      "host": "Enterococcus faecium",
+      "mechanism": "modification",
+      "drug": "glycopeptides",
+      "chains": [
+        "A",
+        "B"
+      ],
+      "panres": "pan_5959"
+    },
+    {
+      "pdb": "5LRN",
+      "name": "MCR-1",
+      "gene": "mcr-1",
+      "host": "Escherichia coli",
+      "mechanism": "modification",
+      "drug": "polymyxins",
+      "chains": [
+        "A"
+      ],
+      "panres": "pan_189"
+    },
+    {
+      "pdb": "2GIF",
+      "name": "AcrB",
+      "gene": "acrB",
+      "host": "Escherichia coli",
+      "mechanism": "efflux",
+      "drug": "multi",
+      "chains": [
+        "A",
+        "B",
+        "C"
+      ],
+      "panres": "pan_5880"
+    }
+  ],
+  "posters": [
+    {
+      "file": "posters/panres_poster.pdf",
+      "credit": "PanRes · rambio, DTU National Food Institute"
+    },
+    {
+      "file": "posters/freitag_dkbic26_coassembly.pdf",
+      "credit": "Freitag, Vojtková, Brinch & Munk · DKBiC 2026"
+    }
+  ],
+  "papers": [
+    {
+      "key": "panres",
+      "doi": "10.1093/bioinformatics/btag776"
+    },
+    {
+      "key": "martiny2025",
+      "doi": "10.1038/s41467-025-66070-7",
+      "pdf": "https://www.nature.com/articles/s41467-025-66070-7.pdf"
+    },
+    {
+      "key": "flankophile",
+      "doi": "10.1128/spectrum.02413-23"
+    },
+    {
+      "key": "mgcalibrator",
+      "doi": "10.64898/2026.02.26.708180",
+      "pdf": "https://www.biorxiv.org/content/10.64898/2026.02.26.708180v1.full.pdf"
+    }
+  ],
+  "videos": [
+    "RNFKp5EkKZc",
+    "535AlIEkoDc",
+    "QEgtueCSCds"
+  ],
+  "links": [
+    {
+      "key": "stopamr",
+      "url": "https://stopamr.dk",
+      "label": "stopAMR.dk"
+    },
+    {
+      "key": "alliancen",
+      "url": "https://amr-alliancen.dk",
+      "label": "AMR-alliancen"
+    }
+  ],
+  "site": {
+    "url": "https://rambio.dk"
+  }
+}

@@ -1,0 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+chatterbox-tts
+huggingface_hub
+torchaudio
+piper-tts
+setuptools<81

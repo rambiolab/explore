@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Explore · RaMBio</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{"imports": {
+  "three": "./vendor/three/three.webgpu.js",
+  "three/webgpu": "./vendor/three/three.webgpu.js",
+  "three/tsl": "./vendor/three/three.tsl.js",
+  "three/addons/": "./vendor/three/addons/",
+  "pdfjs": "./vendor/pdfjs/pdf.min.mjs"
+}}
+</script>
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="topbar">
+  <button id="lang" class="pill"></button>
+  <button id="helpBtn" class="pill round" aria-label="help">?</button>
+  <button id="menuBtn" class="pill round" aria-label="menu">☰</button>
+</div>
+
+<div id="start" class="overlay">
+  <div class="card">
+    <div class="brand">RaMBio · explore.rambio.dk</div>
+    <h1><span data-i18n="title"></span> <small data-i18n="title_sub"></small></h1>
+    <p data-i18n="intro"></p>
+    <button id="go" class="cta" data-i18n="enter" disabled></button>
+    <div id="progress"><div></div></div>
+    <p id="controls" class="hint"></p>
+  </div>
+</div>
+
+<div id="help" class="overlay hidden">
+  <div class="card wide">
+    <h2 data-i18n="help_title"></h2>
+    <div class="keys">
+      <div><b data-i18n="help_move_k"></b><span data-i18n="help_move"></span></div>
+      <div><b data-i18n="help_look_k"></b><span data-i18n="help_look"></span></div>
+      <div><b data-i18n="help_turn_k"></b><span data-i18n="help_turn"></span></div>
+      <div><b data-i18n="help_run_k"></b><span data-i18n="help_run"></span></div>
+      <div><b data-i18n="help_act_k"></b><span data-i18n="help_act"></span></div>
+      <div><b data-i18n="help_menu_k"></b><span data-i18n="help_menu"></span></div>
+      <div><b data-i18n="help_game_k"></b><span data-i18n="help_game"></span></div>
+    </div>
+    <p class="hint" data-i18n="help_touch"></p>
+    <button class="cta close" data-i18n="ok"></button>
+  </div>
+</div>
+
+<div id="menu" class="overlay hidden">
+  <div class="card wide">
+    <h2 data-i18n="menu_title"></h2>
+    <div class="settings">
+      <label><span data-i18n="menu_lang"></span>
+        <select id="setLang"><option value="da">Dansk</option><option value="en">English</option></select></label>
+      <label><span data-i18n="menu_quality"></span>
+        <select id="setQuality"><option value="auto" data-i18n="q_auto"></option><option value="low" data-i18n="q_low"></option><option value="high" data-i18n="q_high"></option></select></label>
+      <label><span data-i18n="menu_volume"></span><input id="setVolume" type="range" min="0" max="1" step="0.05"></label>
+      <label><span data-i18n="menu_mute"></span><input id="setMute" type="checkbox"></label>
+      <label><span data-i18n="menu_capture"></span><input id="setCapture" type="checkbox"></label>
+    </div>
+    <p class="hint" data-i18n="menu_capture_hint"></p>
+    <div class="row">
+      <button class="cta close" data-i18n="resume"></button>
+      <button id="showHelp" class="ghost" data-i18n="help_title"></button>
+    </div>
+  </div>
+</div>
+
+<div id="prompt" class="prompt hidden"></div>
+<div id="info" class="panel hidden"></div>
+<div id="speech" class="bubble hidden"><span class="text"></span><span class="next"></span></div>
+<div id="stick" class="stick hidden"><div class="knob"></div></div>
+<div id="crosshair"></div>
+<div id="tip" class="hoverlabel hidden"></div>
+
+<div id="video" class="overlay hidden">
+  <div class="card video">
+    <h2 id="videoTitle"></h2>
+    <div class="frame"><iframe id="videoFrame" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+    <div class="row">
+      <button class="cta close" data-i18n="close"></button>
+      <a id="videoLink" class="ghost" target="_blank" rel="noopener" data-i18n="open_youtube"></a>
+    </div>
+  </div>
+</div>
+
+<div id="gamehud" class="hidden">
+  <div class="scorebar"><span id="gScore"></span><span id="gTime"></span></div>
+  <div id="gToast" class="toast hidden"></div>
+  <div id="drugs" class="drugs"></div>
+  <div id="touchGame" class="touchgame">
+    <button id="gFire" class="fire" data-i18n="game_fire"></button>
+  </div>
+  <button id="gQuit" class="ghost quit" data-i18n="game_quit"></button>
+</div>
+<div id="roundcard" class="overlay hidden">
+  <div class="card">
+    <div class="brand" id="rcKicker"></div>
+    <h2 id="rcTitle"></h2>
+    <div id="rcBody"></div>
+    <p id="rcStats" class="hint"></p>
+    <div class="row">
+      <button id="rcNext" class="cta"></button>
+      <button id="rcLeave" class="ghost" data-i18n="game_quit"></button>
+    </div>
+  </div>
+</div>
+<div id="popups"></div>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/A 3D AMR experience*.md
+/response-8-topics.md
+/*.pdf
+scripts/.cache/
+scripts/papers/
+__pycache__/

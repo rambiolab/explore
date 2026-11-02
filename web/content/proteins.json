@@ -1,0 +1,3303 @@
+{
+ "source": "https://panres.rambio.dk",
+ "panres_json_sha256": "532a4a373d8b386d3bdb3afa06b74e1501d2dc726cba5d7228e1d8fbda0eda15",
+ "classics": [
+  {
+   "pdb": "1BTL",
+   "name": "TEM-1",
+   "gene": "blaTEM-1",
+   "host": "Escherichia coli",
+   "mechanism": "inactivation",
+   "drug": "penicillins",
+   "chains": [
+    "A"
+   ],
+   "panres": {
+    "pan_gene": "pan_2590",
+    "display_name": "blaTEM-1B",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2590",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Cephalothin",
+     "Amoxycillin",
+     "Ticarcillin",
+     "Amoxicillin",
+     "Ampicillin",
+     "Piperacillin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "AMRFinderPlus",
+     "ResFinderFG",
+     "ResFinder"
+    ],
+    "same_as": [
+     "blaTEM-1B_1_AY458016",
+     "KU605819.1",
+     "blaTEM-1",
+     "TEM"
+    ],
+    "pan_protein": "PAN2590",
+    "has_length": 861,
+    "card_link": null
+   }
+  },
+  {
+   "pdb": "4HBT",
+   "name": "CTX-M-15",
+   "gene": "blaCTX-M-15",
+   "host": "Escherichia coli",
+   "mechanism": "inactivation",
+   "drug": "cephalosporins",
+   "chains": [
+    "A"
+   ],
+   "panres": {
+    "pan_gene": "pan_27",
+    "display_name": "blaCTX-M-15",
+    "panres_url": "https://panres.rambio.dk/#details/pan_27",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Amoxicillin",
+     "Ceftriaxone",
+     "Penam",
+     "Aztreonam",
+     "Cefepime",
+     "Ticarcillin",
+     "Cephalosporin",
+     "Ampicillin",
+     "Cefotaxime",
+     "Piperacillin",
+     "Amoxycillin",
+     "Ceftazidime"
+    ],
+    "is_from_database": [
+     "ResFinderFG",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder"
+    ],
+    "same_as": [
+     "CTX-M-15",
+     "GQ343005.1",
+     "CTX",
+     "blaCTX-M-15",
+     "blaCTX-M-15_1_AY044436"
+    ],
+    "pan_protein": "PAN27",
+    "has_length": 876,
+    "card_link": "https://card.mcmaster.ca/ontology/38278"
+   }
+  },
+  {
+   "pdb": "2OV5",
+   "name": "KPC-2",
+   "gene": "blaKPC-2",
+   "host": "Klebsiella pneumoniae",
+   "mechanism": "inactivation",
+   "drug": "carbapenems",
+   "chains": [
+    "A"
+   ],
+   "panres": {
+    "pan_gene": "pan_1329",
+    "display_name": "blaKPC-2",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1329",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Ertapenem",
+     "Amoxicillin",
+     "Monobactam",
+     "Penam",
+     "Aztreonam",
+     "Amoxicillin+Clavulanic_Acid",
+     "Cefepime",
+     "Ticarcillin",
+     "Imipenem",
+     "Cephalosporin",
+     "Carbapenem",
+     "Ampicillin",
+     "Cefotaxime",
+     "Piperacillin",
+     "Ceftazidime",
+     "Meropenem",
+     "Piperacillin+Tazobactam",
+     "Cefoxitin",
+     "Ampicillin+Clavulanic_Acid",
+     "Ticarcillin+Clavulanic_Acid"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder"
+    ],
+    "same_as": [
+     "KPC-2",
+     "blaKPC-2_1_AY034847",
+     "blaKPC-2",
+     "KPC"
+    ],
+    "pan_protein": "PAN1329",
+    "has_length": 882,
+    "card_link": "https://card.mcmaster.ca/ontology/38712"
+   }
+  },
+  {
+   "pdb": "3SPU",
+   "name": "NDM-1",
+   "gene": "blaNDM-1",
+   "host": "Klebsiella pneumoniae",
+   "mechanism": "inactivation",
+   "drug": "carbapenems",
+   "chains": [
+    "A"
+   ],
+   "panres": {
+    "pan_gene": "pan_3",
+    "display_name": "blaNDM-1",
+    "panres_url": "https://panres.rambio.dk/#details/pan_3",
+    "has_resistance_class": [
+     "Beta_Lactam",
+     "Polymyxin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Ertapenem",
+     "Amoxicillin",
+     "Cefoxitin",
+     "Penam",
+     "Amoxicillin+Clavulanic_Acid",
+     "Cefepime",
+     "Ceftazidime+Avibactam",
+     "Polymyxin_B",
+     "Imipenem",
+     "Cefixime",
+     "Cephalosporin",
+     "Ceftobiprole",
+     "Ampicillin",
+     "Cephamycin",
+     "Cefotaxime",
+     "Piperacillin",
+     "Carbapenem",
+     "Temocillin",
+     "Ceftazidime",
+     "Meropenem",
+     "Piperacillin+Tazobactam",
+     "Ampicillin+Clavulanic_Acid"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes",
+     "CsabaPal",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "blaNDM-1",
+     "chryso-gtcttggctt_ttttttagtt_1",
+     "NDM-1",
+     "NDM",
+     "blaNDM-1_1_FN396876"
+    ],
+    "pan_protein": "PAN3",
+    "has_length": 813,
+    "card_link": "https://card.mcmaster.ca/ontology/36728"
+   }
+  },
+  {
+   "pdb": "3HBR",
+   "name": "OXA-48",
+   "gene": "blaOXA-48",
+   "host": "Klebsiella pneumoniae",
+   "mechanism": "inactivation",
+   "drug": "carbapenems",
+   "chains": [
+    "A",
+    "B"
+   ],
+   "panres": {
+    "pan_gene": "pan_400",
+    "display_name": "blaOXA-48",
+    "panres_url": "https://panres.rambio.dk/#details/pan_400",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Imipenem",
+     "Cephalosporin",
+     "Ampicillin",
+     "Piperacillin",
+     "Carbapenem",
+     "Meropenem",
+     "Piperacillin+Tazobactam",
+     "Ampicillin+Clavulanic_Acid",
+     "Amoxicillin",
+     "Penam",
+     "Amoxicillin+Clavulanic_Acid"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder"
+    ],
+    "same_as": [
+     "blaOXA-48_1_AY236073",
+     "blaOXA-48",
+     "OXA",
+     "OXA-48"
+    ],
+    "pan_protein": "PAN400",
+    "has_length": 798,
+    "card_link": "https://card.mcmaster.ca/ontology/38182"
+   }
+  },
+  {
+   "pdb": "1V0C",
+   "name": "AAC(6')-Ib",
+   "gene": "aac(6')-Ib",
+   "host": "Escherichia coli",
+   "mechanism": "inactivation",
+   "drug": "aminoglycosides",
+   "chains": [
+    "A"
+   ],
+   "panres": {
+    "pan_gene": "pan_2759",
+    "display_name": "aac(6)-Ib",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2759",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Modification"
+    ],
+    "has_predicted_phenotype": [
+     "Amikacin",
+     "Tobramycin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "ResFinder",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "AAC6-PRIME",
+     "aac(6)-Ib_1_M21682",
+     "aac6-Ib"
+    ],
+    "pan_protein": "PAN2759",
+    "has_length": 606,
+    "card_link": null
+   }
+  },
+  {
+   "pdb": "1VQQ",
+   "name": "PBP2a",
+   "gene": "mecA",
+   "host": "Staphylococcus aureus",
+   "mechanism": "replacement",
+   "drug": "betalactams",
+   "chains": [
+    "A"
+   ],
+   "panres": {
+    "pan_gene": "pan_4203",
+    "display_name": "mecA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4203",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Modification"
+    ],
+    "has_predicted_phenotype": [
+     "Ceftazidime",
+     "Meropenem",
+     "Cefoxitin",
+     "Ampicillin+Clavulanic_Acid",
+     "Ertapenem",
+     "Amoxicillin",
+     "Amoxicillin+Clavulanic_Acid",
+     "Cefepime",
+     "Imipenem",
+     "Cefixime",
+     "Ampicillin",
+     "Cefotaxime",
+     "Piperacillin+Tazobactam",
+     "Piperacillin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "mecA_2_NC_002951",
+     "MECA",
+     "mecA"
+    ],
+    "pan_protein": "PAN4203",
+    "has_length": 2007,
+    "card_link": null
+   }
+  },
+  {
+   "pdb": "1E4E",
+   "name": "VanA",
+   "gene": "vanA",
+   "host": "Enterococcus faecium",
+   "mechanism": "modification",
+   "drug": "glycopeptides",
+   "chains": [
+    "A",
+    "B"
+   ],
+   "panres": {
+    "pan_gene": "pan_5959",
+    "display_name": "vanA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5959",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "AMRFinderPlus"
+    ],
+    "same_as": [
+     "vanA",
+     "VANA"
+    ],
+    "pan_protein": "PAN5959",
+    "has_length": 1032,
+    "card_link": null
+   }
+  },
+  {
+   "pdb": "5LRN",
+   "name": "MCR-1",
+   "gene": "mcr-1",
+   "host": "Escherichia coli",
+   "mechanism": "modification",
+   "drug": "polymyxins",
+   "chains": [
+    "A"
+   ],
+   "panres": {
+    "pan_gene": "pan_189",
+    "display_name": "mcr-1.1",
+    "panres_url": "https://panres.rambio.dk/#details/pan_189",
+    "has_resistance_class": [
+     "Peptide",
+     "Lipopeptide",
+     "Polymyxin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Modification",
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [
+     "Colistin"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "mcr-1.1",
+     "MCR",
+     "mcr-1.1_1_KP347127",
+     "MCR-1.1"
+    ],
+    "pan_protein": "PAN189",
+    "has_length": 1626,
+    "card_link": "https://card.mcmaster.ca/ontology/40335"
+   }
+  },
+  {
+   "pdb": "2GIF",
+   "name": "AcrB",
+   "gene": "acrB",
+   "host": "Escherichia coli",
+   "mechanism": "efflux",
+   "drug": "multi",
+   "chains": [
+    "A",
+    "B",
+    "C"
+   ],
+   "panres": {
+    "pan_gene": "pan_5880",
+    "display_name": "acrB",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5880",
+    "has_resistance_class": [
+     "Disinfecting_Agents_And_Antiseptics",
+     "Phenicol",
+     "Rifamycin",
+     "Fluoroquinolone",
+     "Tetracycline",
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [
+     "Penam",
+     "Glycylcycline",
+     "Cephalosporin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "acrB",
+     "ACRB"
+    ],
+    "pan_protein": "PAN5880",
+    "has_length": 3150,
+    "card_link": "https://card.mcmaster.ca/ontology/36355"
+   }
+  }
+ ],
+ "daily": {
+  "Beta_Lactam": [
+   {
+    "pan_gene": "pan_20",
+    "display_name": "blaACI-1",
+    "panres_url": "https://panres.rambio.dk/#details/pan_20",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Amoxicillin",
+     "Penam",
+     "Ticarcillin",
+     "Cephalosporin",
+     "Penem",
+     "Ampicillin",
+     "Cefotaxime",
+     "Ceftazidime"
+    ],
+    "is_from_database": [
+     "ResFinderFG",
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "ACI",
+     "blaACI-1_1_AJ007350",
+     "KU606773.1",
+     "blaACI-1",
+     "aci1",
+     "ACI-1"
+    ],
+    "pan_protein": "PAN20",
+    "has_length": 855,
+    "card_link": "https://card.mcmaster.ca/ontology/41531",
+    "pan_structure": "PAN20_struct",
+    "file": "panres/PAN20_struct.pdb.gz",
+    "mean_plddt": 92.2,
+    "residues": 284
+   },
+   {
+    "pan_gene": "pan_1",
+    "display_name": "blaOXA-347",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Cephalosporin",
+     "Carbapenem",
+     "Amoxycillin",
+     "Penam"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "ResFinderFG",
+     "MegaRes"
+    ],
+    "same_as": [
+     "OXA-347",
+     "OXA",
+     "JN086160.1",
+     "blaOXA-347",
+     "blaOXA-347_1_ACWG01000053"
+    ],
+    "pan_protein": "PAN1",
+    "has_length": 825,
+    "card_link": "https://card.mcmaster.ca/ontology/38177",
+    "pan_structure": "PAN1_struct",
+    "file": "panres/PAN1_struct.pdb.gz",
+    "mean_plddt": 93.6,
+    "residues": 274
+   },
+   {
+    "pan_gene": "pan_855",
+    "display_name": "blaALG11-1",
+    "panres_url": "https://panres.rambio.dk/#details/pan_855",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Carbapenem",
+     "Amoxycillin"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinderFG",
+     "MegaRes"
+    ],
+    "same_as": [
+     "KU167039.1",
+     "ALG",
+     "ALG11-1",
+     "blaALG11-1"
+    ],
+    "pan_protein": "PAN855",
+    "has_length": 888,
+    "card_link": "https://card.mcmaster.ca/ontology/45354",
+    "pan_structure": "PAN855_struct",
+    "file": "panres/PAN855_struct.pdb.gz",
+    "mean_plddt": 93.2,
+    "residues": 295
+   },
+   {
+    "pan_gene": "pan_363",
+    "display_name": "blaB-12",
+    "panres_url": "https://panres.rambio.dk/#details/pan_363",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Carbapenem",
+     "Ampicillin",
+     "Amoxicillin",
+     "Penam",
+     "Ticarcillin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder",
+     "CARD"
+    ],
+    "same_as": [
+     "BlaB-12",
+     "blaB-12",
+     "blaB-12_1_EF595958",
+     "BLAB"
+    ],
+    "pan_protein": "PAN363",
+    "has_length": 750,
+    "card_link": "https://card.mcmaster.ca/ontology/43987",
+    "pan_structure": "PAN363_struct",
+    "file": "panres/PAN363_struct.pdb.gz",
+    "mean_plddt": 92.8,
+    "residues": 249
+   },
+   {
+    "pan_gene": "pan_77",
+    "display_name": "blaCARB-49",
+    "panres_url": "https://panres.rambio.dk/#details/pan_77",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Piperacillin",
+     "Amoxicillin",
+     "Ampicillin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "CARB-49",
+     "blaCARB-49",
+     "blaCARB-49_1_KX599396",
+     "RTG"
+    ],
+    "pan_protein": "PAN77",
+    "has_length": 897,
+    "card_link": null,
+    "pan_structure": "PAN77_struct",
+    "file": "panres/PAN77_struct.pdb.gz",
+    "mean_plddt": 92.7,
+    "residues": 298
+   },
+   {
+    "pan_gene": "pan_144",
+    "display_name": "blaCTX-M-151",
+    "panres_url": "https://panres.rambio.dk/#details/pan_144",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Piperacillin",
+     "Cefotaxime",
+     "Ceftazidime",
+     "Ceftriaxone",
+     "Cefepime",
+     "Ticarcillin",
+     "Amoxicillin",
+     "Cephalosporin",
+     "Aztreonam",
+     "Ampicillin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "CTX",
+     "CTX-M-151",
+     "blaCTX-M-151",
+     "blaCTX-M-151_1_AB916359",
+     "originalgene1"
+    ],
+    "pan_protein": "PAN144",
+    "has_length": 915,
+    "card_link": "https://card.mcmaster.ca/ontology/38408",
+    "pan_structure": "PAN144_struct",
+    "file": "panres/PAN144_struct.pdb.gz",
+    "mean_plddt": 91.0,
+    "residues": 304
+   },
+   {
+    "pan_gene": "pan_114",
+    "display_name": "blaDES-1",
+    "panres_url": "https://panres.rambio.dk/#details/pan_114",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Penam"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "blaDES-1",
+     "DES",
+     "blaDES-1_1_AF426161",
+     "DES-1"
+    ],
+    "pan_protein": "PAN114",
+    "has_length": 975,
+    "card_link": "https://card.mcmaster.ca/ontology/42895",
+    "pan_structure": "PAN114_struct",
+    "file": "panres/PAN114_struct.pdb.gz",
+    "mean_plddt": 86.8,
+    "residues": 324
+   },
+   {
+    "pan_gene": "pan_625",
+    "display_name": "blaDHT2-1",
+    "panres_url": "https://panres.rambio.dk/#details/pan_625",
+    "has_resistance_class": [
+     "Beta_Lactam"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Amoxycillin",
+     "Carbapenem"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinderFG",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "DHT",
+     "DHT2-1",
+     "blaDHT2-1",
+     "KU167035.1"
+    ],
+    "pan_protein": "PAN625",
+    "has_length": 909,
+    "card_link": "https://card.mcmaster.ca/ontology/45334",
+    "pan_structure": "PAN625_struct",
+    "file": "panres/PAN625_struct.pdb.gz",
+    "mean_plddt": 91.7,
+    "residues": 302
+   }
+  ],
+  "Aminoglycoside": [
+   {
+    "pan_gene": "pan_18",
+    "display_name": "aph(2)-Ig",
+    "panres_url": "https://panres.rambio.dk/#details/pan_18",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation",
+     "Enzymatic_Modification"
+    ],
+    "has_predicted_phenotype": [
+     "Tobramycin",
+     "Gentamicin",
+     "Kanamycin",
+     "Amikacin"
+    ],
+    "is_from_database": [
+     "ResFinderFG",
+     "MegaRes",
+     "ResFinder",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "APH(2)-Ig",
+     "aph(2)-Ig_1_CP004067",
+     "aph(2)-Ig",
+     "APH2-DPRIME",
+     "KX125860.1"
+    ],
+    "pan_protein": "PAN18",
+    "has_length": 921,
+    "card_link": "https://card.mcmaster.ca/ontology/39069",
+    "pan_structure": "PAN18_struct",
+    "file": "panres/PAN18_struct.pdb.gz",
+    "mean_plddt": 93.7,
+    "residues": 306
+   },
+   {
+    "pan_gene": "pan_623",
+    "display_name": "aac(2)-IIa",
+    "panres_url": "https://panres.rambio.dk/#details/pan_623",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Modification",
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Kasugamycin"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder"
+    ],
+    "same_as": [
+     "AAC(2)-IIa",
+     "aac(2)-IIa_Bg",
+     "aac(2)-IIa",
+     "AAC2-PRIME",
+     "aac(2)-IIa_1_AB669090"
+    ],
+    "pan_protein": "PAN623",
+    "has_length": 783,
+    "card_link": "https://card.mcmaster.ca/ontology/42613",
+    "pan_structure": "PAN623_struct",
+    "file": "panres/PAN623_struct.pdb.gz",
+    "mean_plddt": 91.4,
+    "residues": 260
+   },
+   {
+    "pan_gene": "pan_8",
+    "display_name": "ant(3)-Ii-aac(6)-IId",
+    "panres_url": "https://panres.rambio.dk/#details/pan_8",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Modification",
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Streptomycin",
+     "Amikacin",
+     "Tobramycin",
+     "Gentamicin",
+     "Spectinomycin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "ResFinder",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "ant(3)-Ii-aac(6)-IId_1_AF453998",
+     "ANT3Ii_AAC6_IID",
+     "ant3Ih-Aac6-IId",
+     "AAC6-PRIME",
+     "aac(6)-IId",
+     "ant(3)-Ih"
+    ],
+    "pan_protein": "PAN8",
+    "has_length": 1392,
+    "card_link": "https://card.mcmaster.ca/ontology/38998",
+    "pan_structure": "PAN8_struct",
+    "file": "panres/PAN8_struct.pdb.gz",
+    "mean_plddt": 91.0,
+    "residues": 463
+   },
+   {
+    "pan_gene": "pan_558",
+    "display_name": "armA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_558",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Gentamicin",
+     "Amikacin",
+     "Isepamicin",
+     "Netilmicin",
+     "Tobramycin"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "armA_1_AY220558",
+     "armA",
+     "ARMA"
+    ],
+    "pan_protein": "PAN558",
+    "has_length": 774,
+    "card_link": null,
+    "pan_structure": "PAN558_struct",
+    "file": "panres/PAN558_struct.pdb.gz",
+    "mean_plddt": 91.8,
+    "residues": 257
+   },
+   {
+    "pan_gene": "pan_847",
+    "display_name": "rmtC",
+    "panres_url": "https://panres.rambio.dk/#details/pan_847",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Arbekacin",
+     "Gentamicin",
+     "Isepamicin",
+     "Sisomicin",
+     "Kanamycin",
+     "Amikacin",
+     "Tobramycin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder",
+     "CARD"
+    ],
+    "same_as": [
+     "RMTC",
+     "rmtC_1_AB194779",
+     "rmtC"
+    ],
+    "pan_protein": "PAN847",
+    "has_length": 846,
+    "card_link": null,
+    "pan_structure": "PAN847_struct",
+    "file": "panres/PAN847_struct.pdb.gz",
+    "mean_plddt": 91.5,
+    "residues": 281
+   },
+   {
+    "pan_gene": "pan_1226",
+    "display_name": "rmtE",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1226",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Streptomycin",
+     "Tobramycin",
+     "Gentamicin",
+     "Kanamycin",
+     "Amikacin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "ResFinder",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "rmtE_1_GU201947",
+     "rmtE",
+     "rmtE1",
+     "RMTE"
+    ],
+    "pan_protein": "PAN1226",
+    "has_length": 822,
+    "card_link": null,
+    "pan_structure": "PAN1226_struct",
+    "file": "panres/PAN1226_struct.pdb.gz",
+    "mean_plddt": 92.0,
+    "residues": 273
+   },
+   {
+    "pan_gene": "pan_475",
+    "display_name": "rmtG",
+    "panres_url": "https://panres.rambio.dk/#details/pan_475",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Amikacin",
+     "Tobramycin",
+     "Arbekacin",
+     "Gentamicin"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder"
+    ],
+    "same_as": [
+     "rmtG_1_JX486113",
+     "RMTG",
+     "rmtG"
+    ],
+    "pan_protein": "PAN475",
+    "has_length": 795,
+    "card_link": null,
+    "pan_structure": "PAN475_struct",
+    "file": "panres/PAN475_struct.pdb.gz",
+    "mean_plddt": 90.2,
+    "residues": 264
+   },
+   {
+    "pan_gene": "pan_337",
+    "display_name": "rmtH",
+    "panres_url": "https://panres.rambio.dk/#details/pan_337",
+    "has_resistance_class": [
+     "Aminoglycoside"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Tobramycin",
+     "Gentamicin",
+     "Amikacin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder"
+    ],
+    "same_as": [
+     "rmtH",
+     "RMTH",
+     "rmtH_1_KC544262"
+    ],
+    "pan_protein": "PAN337",
+    "has_length": 759,
+    "card_link": null,
+    "pan_structure": "PAN337_struct",
+    "file": "panres/PAN337_struct.pdb.gz",
+    "mean_plddt": 92.9,
+    "residues": 252
+   }
+  ],
+  "Tetracycline": [
+   {
+    "pan_gene": "pan_487",
+    "display_name": "otr(A)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_487",
+    "has_resistance_class": [
+     "Tetracycline"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Minocycline",
+     "Doxycycline"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "otr(A)",
+     "OTRA",
+     "otr(A)S.rim",
+     "otrA",
+     "otr(A)_1_X53401"
+    ],
+    "pan_protein": "PAN487",
+    "has_length": 1992,
+    "card_link": "https://card.mcmaster.ca/ontology/39325",
+    "pan_structure": "PAN487_struct",
+    "file": "panres/PAN487_struct.pdb.gz",
+    "mean_plddt": 81.4,
+    "residues": 663
+   },
+   {
+    "pan_gene": "pan_922",
+    "display_name": "tet(37)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_922",
+    "has_resistance_class": [
+     "Tetracycline"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "ResFinder",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "tet(37)_1_AF540889",
+     "TET37",
+     "tet(37)"
+    ],
+    "pan_protein": "PAN922",
+    "has_length": 327,
+    "card_link": null,
+    "pan_structure": "PAN922_struct",
+    "file": "panres/PAN922_struct.pdb.gz",
+    "mean_plddt": 84.3,
+    "residues": 108
+   },
+   {
+    "pan_gene": "pan_828",
+    "display_name": "tetA(60)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_828",
+    "has_resistance_class": [
+     "Tetracycline"
+    ],
+    "has_mechanism_of_resistance": [
+     "Increased_Efflux"
+    ],
+    "has_predicted_phenotype": [
+     "Doxycycline",
+     "Tigecycline"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder",
+     "CARD"
+    ],
+    "same_as": [
+     "Tet(60)",
+     "TETA60",
+     "tetA(60)_1_KX000272",
+     "tetA(60)"
+    ],
+    "pan_protein": "PAN828",
+    "has_length": 1740,
+    "card_link": null,
+    "pan_structure": "PAN828_struct",
+    "file": "panres/PAN828_struct.pdb.gz",
+    "mean_plddt": 93.7,
+    "residues": 579
+   },
+   {
+    "pan_gene": "pan_279",
+    "display_name": "tetB(60)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_279",
+    "has_resistance_class": [
+     "Tetracycline"
+    ],
+    "has_mechanism_of_resistance": [
+     "Increased_Efflux"
+    ],
+    "has_predicted_phenotype": [
+     "Doxycycline",
+     "Tigecycline"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "tetB(60)",
+     "TetB(60)",
+     "TETB60",
+     "tetB(60)_1_KX000273"
+    ],
+    "pan_protein": "PAN279",
+    "has_length": 1740,
+    "card_link": null,
+    "pan_structure": "PAN279_struct",
+    "file": "panres/PAN279_struct.pdb.gz",
+    "mean_plddt": 90.8,
+    "residues": 579
+   },
+   {
+    "pan_gene": "pan_4082",
+    "display_name": "tcmA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4082",
+    "has_resistance_class": [
+     "Tetracycline"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Tetracenomycin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes"
+    ],
+    "same_as": [
+     "TCMA",
+     "tcmA"
+    ],
+    "pan_protein": "PAN4082",
+    "has_length": 1617,
+    "card_link": null,
+    "pan_structure": "PAN4082_struct",
+    "file": "panres/PAN4082_struct.pdb.gz",
+    "mean_plddt": 83.3,
+    "residues": 538
+   },
+   {
+    "pan_gene": "pan_5457",
+    "display_name": "adeA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5457",
+    "has_resistance_class": [
+     "Tetracycline"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [
+     "Glycylcycline"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "ADEA",
+     "adeA"
+    ],
+    "pan_protein": "PAN5457",
+    "has_length": 1191,
+    "card_link": "https://card.mcmaster.ca/ontology/37154",
+    "pan_structure": "PAN5457_struct",
+    "file": "panres/PAN5457_struct.pdb.gz",
+    "mean_plddt": 86.6,
+    "residues": 396
+   },
+   {
+    "pan_gene": "pan_5893",
+    "display_name": "adeR",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5893",
+    "has_resistance_class": [
+     "Tetracycline"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [
+     "Glycylcycline"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "ADER",
+     "adeR"
+    ],
+    "pan_protein": "PAN5893",
+    "has_length": 744,
+    "card_link": "https://card.mcmaster.ca/ontology/36692",
+    "pan_structure": "PAN5893_struct",
+    "file": "panres/PAN5893_struct.pdb.gz",
+    "mean_plddt": 81.3,
+    "residues": 247
+   },
+   {
+    "pan_gene": "pan_5766",
+    "display_name": "adeS",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5766",
+    "has_resistance_class": [
+     "Tetracycline"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [
+     "Glycylcycline"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "ADES",
+     "adeS"
+    ],
+    "pan_protein": "PAN5766",
+    "has_length": 1086,
+    "card_link": "https://card.mcmaster.ca/ontology/36688",
+    "pan_structure": "PAN5766_struct",
+    "file": "panres/PAN5766_struct.pdb.gz",
+    "mean_plddt": 85.2,
+    "residues": 361
+   }
+  ],
+  "MLS": [
+   {
+    "pan_gene": "pan_23",
+    "display_name": "msr(E)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_23",
+    "has_resistance_class": [
+     "Lincosamide",
+     "Macrolide",
+     "Streptogramin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Azithromycin",
+     "Quinupristin",
+     "Streptogramin_B",
+     "Erythromycin",
+     "Pristinamycin_Ia",
+     "Virginiamycin_S"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinderFG",
+     "ResFinder"
+    ],
+    "same_as": [
+     "msr(E)_1_FR751518",
+     "MSRE",
+     "MG585948.1",
+     "msrE",
+     "msr(E)"
+    ],
+    "pan_protein": "PAN23",
+    "has_length": 1476,
+    "card_link": "https://card.mcmaster.ca/ontology/39685",
+    "pan_structure": "PAN23_struct",
+    "file": "panres/PAN23_struct.pdb.gz",
+    "mean_plddt": 80.7,
+    "residues": 491
+   },
+   {
+    "pan_gene": "pan_288",
+    "display_name": "ere(B)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_288",
+    "has_resistance_class": [
+     "Macrolide",
+     "Streptogramin",
+     "Lincosamide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Erythromycin",
+     "Streptogramin_B",
+     "Azithromycin"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "EREB",
+     "ere(B)_2_X03988",
+     "EreB",
+     "ere(B)"
+    ],
+    "pan_protein": "PAN288",
+    "has_length": 1260,
+    "card_link": "https://card.mcmaster.ca/ontology/36502",
+    "pan_structure": "PAN288_struct",
+    "file": "panres/PAN288_struct.pdb.gz",
+    "mean_plddt": 94.1,
+    "residues": 419
+   },
+   {
+    "pan_gene": "pan_1354",
+    "display_name": "erm(32)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1354",
+    "has_resistance_class": [
+     "Macrolide",
+     "Lincosamide",
+     "Streptogramin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Modification"
+    ],
+    "has_predicted_phenotype": [
+     "Oleandomycin",
+     "Tylosin",
+     "Spiramycin",
+     "Streptogramin_B"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder",
+     "CARD"
+    ],
+    "same_as": [
+     "erm(32)_1_AJ009971",
+     "ERM32",
+     "erm(32)"
+    ],
+    "pan_protein": "PAN1354",
+    "has_length": 843,
+    "card_link": null,
+    "pan_structure": "PAN1354_struct",
+    "file": "panres/PAN1354_struct.pdb.gz",
+    "mean_plddt": 91.5,
+    "residues": 280
+   },
+   {
+    "pan_gene": "pan_309",
+    "display_name": "lnu(B)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_309",
+    "has_resistance_class": [
+     "Lincosamide",
+     "Macrolide",
+     "Streptogramin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Lincomycin",
+     "Clindamycin",
+     "Streptogramin_B"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "lnu(B)",
+     "lnuB",
+     "lin(B)",
+     "lnu(B)_1_AJ238249",
+     "LNUB"
+    ],
+    "pan_protein": "PAN309",
+    "has_length": 804,
+    "card_link": "https://card.mcmaster.ca/ontology/39270",
+    "pan_structure": "PAN309_struct",
+    "file": "panres/PAN309_struct.pdb.gz",
+    "mean_plddt": 96.5,
+    "residues": 267
+   },
+   {
+    "pan_gene": "pan_445",
+    "display_name": "mef(B)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_445",
+    "has_resistance_class": [
+     "Macrolide",
+     "Streptogramin",
+     "Lincosamide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Increased_Efflux"
+    ],
+    "has_predicted_phenotype": [
+     "Streptogramin_B",
+     "Azithromycin",
+     "Erythromycin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "mef(B)",
+     "mef(B)_1_FJ196385",
+     "MEFB"
+    ],
+    "pan_protein": "PAN445",
+    "has_length": 1230,
+    "card_link": null,
+    "pan_structure": "PAN445_struct",
+    "file": "panres/PAN445_struct.pdb.gz",
+    "mean_plddt": 91.4,
+    "residues": 409
+   },
+   {
+    "pan_gene": "pan_1070",
+    "display_name": "mph(B)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1070",
+    "has_resistance_class": [
+     "Macrolide",
+     "Streptogramin",
+     "Lincosamide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Erythromycin",
+     "Streptogramin_B",
+     "Telithromycin",
+     "Spiramycin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder",
+     "CARD"
+    ],
+    "same_as": [
+     "mph(B)_1_D85892",
+     "MPHB",
+     "mphB",
+     "mph(B)"
+    ],
+    "pan_protein": "PAN1070",
+    "has_length": 909,
+    "card_link": "https://card.mcmaster.ca/ontology/36457",
+    "pan_structure": "PAN1070_struct",
+    "file": "panres/PAN1070_struct.pdb.gz",
+    "mean_plddt": 95.6,
+    "residues": 302
+   },
+   {
+    "pan_gene": "pan_56",
+    "display_name": "ole(B)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_56",
+    "has_resistance_class": [
+     "Macrolide",
+     "Streptogramin",
+     "Lincosamide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Streptogramin_B",
+     "Oleandomycin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "OLEB",
+     "oleB",
+     "ole(B)_1_L36601",
+     "ole(B)"
+    ],
+    "pan_protein": "PAN56",
+    "has_length": 1710,
+    "card_link": "https://card.mcmaster.ca/ontology/39470",
+    "pan_structure": "PAN56_struct",
+    "file": "panres/PAN56_struct.pdb.gz",
+    "mean_plddt": 84.8,
+    "residues": 569
+   },
+   {
+    "pan_gene": "pan_1212",
+    "display_name": "sal(A)",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1212",
+    "has_resistance_class": [
+     "Lincosamide",
+     "Pleuromutilins",
+     "Pleuromutilin",
+     "Macrolide",
+     "Streptogramin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Dalfopristin",
+     "Pristinamycin_Iia",
+     "Clindamycin",
+     "Streptogramin_B",
+     "Tiamulin",
+     "Virginiamycin_M",
+     "Streptogramin_A",
+     "Lincomycin"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "sal(A)_1_KC693025",
+     "sal(A)",
+     "salA",
+     "SALA"
+    ],
+    "pan_protein": "PAN1212",
+    "has_length": 1626,
+    "card_link": "https://card.mcmaster.ca/ontology/40405",
+    "pan_structure": "PAN1212_struct",
+    "file": "panres/PAN1212_struct.pdb.gz",
+    "mean_plddt": 85.8,
+    "residues": 541
+   }
+  ],
+  "Quinolone": [
+   {
+    "pan_gene": "pan_165",
+    "display_name": "qnrVC5",
+    "panres_url": "https://panres.rambio.dk/#details/pan_165",
+    "has_resistance_class": [
+     "Fluoroquinolone",
+     "Quinolone"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Ciprofloxacin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder"
+    ],
+    "same_as": [
+     "qnrVC5",
+     "QNRVC",
+     "QnrVC5",
+     "qnrVC5_1_JN408080"
+    ],
+    "pan_protein": "PAN165",
+    "has_length": 657,
+    "card_link": "https://card.mcmaster.ca/ontology/39236",
+    "pan_structure": "PAN165_struct",
+    "file": "panres/PAN165_struct.pdb.gz",
+    "mean_plddt": 96.9,
+    "residues": 218
+   },
+   {
+    "pan_gene": "pan_4043",
+    "display_name": "norA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4043",
+    "has_resistance_class": [
+     "Fluoroquinolone"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "CARD",
+     "ARGANNOT",
+     "MegaRes"
+    ],
+    "same_as": [
+     "Saur_norA",
+     "norA",
+     "NORA"
+    ],
+    "pan_protein": "PAN4043",
+    "has_length": 1167,
+    "card_link": null,
+    "pan_structure": "PAN4043_struct",
+    "file": "panres/PAN4043_struct.pdb.gz",
+    "mean_plddt": 87.0,
+    "residues": 388
+   },
+   {
+    "pan_gene": "pan_2748",
+    "display_name": "qnrB15",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2748",
+    "has_resistance_class": [
+     "Fluoroquinolone"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "ARGANNOT",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "QNRB",
+     "QnrB15",
+     "qnrB15"
+    ],
+    "pan_protein": "PAN2748",
+    "has_length": 681,
+    "card_link": "https://card.mcmaster.ca/ontology/39164",
+    "pan_structure": "PAN2748_struct",
+    "file": "panres/PAN2748_struct.pdb.gz",
+    "mean_plddt": 94.2,
+    "residues": 226
+   },
+   {
+    "pan_gene": "pan_7129",
+    "display_name": "emrR",
+    "panres_url": "https://panres.rambio.dk/#details/pan_7129",
+    "has_resistance_class": [
+     "Fluoroquinolone"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "emrR",
+     "EMRR"
+    ],
+    "pan_protein": "PAN7129",
+    "has_length": 531,
+    "card_link": "https://card.mcmaster.ca/ontology/36655",
+    "pan_structure": "PAN7129_struct",
+    "file": "panres/PAN7129_struct.pdb.gz",
+    "mean_plddt": 90.2,
+    "residues": 176
+   },
+   {
+    "pan_gene": "pan_6358",
+    "display_name": "lfrA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6358",
+    "has_resistance_class": [
+     "Fluoroquinolone"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "IRFA",
+     "lfrA"
+    ],
+    "pan_protein": "PAN6358",
+    "has_length": 1515,
+    "card_link": "https://card.mcmaster.ca/ontology/40738",
+    "pan_structure": "PAN6358_struct",
+    "file": "panres/PAN6358_struct.pdb.gz",
+    "mean_plddt": 89.9,
+    "residues": 504
+   },
+   {
+    "pan_gene": "pan_7085",
+    "display_name": "mdtH",
+    "panres_url": "https://panres.rambio.dk/#details/pan_7085",
+    "has_resistance_class": [
+     "Fluoroquinolone"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "MDTH",
+     "mdtH"
+    ],
+    "pan_protein": "PAN7085",
+    "has_length": 1209,
+    "card_link": "https://card.mcmaster.ca/ontology/37615",
+    "pan_structure": "PAN7085_struct",
+    "file": "panres/PAN7085_struct.pdb.gz",
+    "mean_plddt": 90.6,
+    "residues": 402
+   },
+   {
+    "pan_gene": "pan_6347",
+    "display_name": "norB",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6347",
+    "has_resistance_class": [
+     "Fluoroquinolone"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "NORBD",
+     "norB"
+    ],
+    "pan_protein": "PAN6347",
+    "has_length": 1401,
+    "card_link": "https://card.mcmaster.ca/ontology/36560",
+    "pan_structure": "PAN6347_struct",
+    "file": "panres/PAN6347_struct.pdb.gz",
+    "mean_plddt": 92.8,
+    "residues": 466
+   },
+   {
+    "pan_gene": "pan_6353",
+    "display_name": "patA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6353",
+    "has_resistance_class": [
+     "Fluoroquinolone"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "CARD",
+     "MegaRes"
+    ],
+    "same_as": [
+     "PATA",
+     "patA"
+    ],
+    "pan_protein": "PAN6353",
+    "has_length": 1695,
+    "card_link": "https://card.mcmaster.ca/ontology/36033",
+    "pan_structure": "PAN6353_struct",
+    "file": "panres/PAN6353_struct.pdb.gz",
+    "mean_plddt": 93.3,
+    "residues": 564
+   }
+  ],
+  "Phenicol": [
+   {
+    "pan_gene": "pan_1072",
+    "display_name": "catA1",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1072",
+    "has_resistance_class": [
+     "Phenicol"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Amphenicol",
+     "Chloramphenicol"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "catA1",
+     "catA1_1_V00622",
+     "catI",
+     "CATA"
+    ],
+    "pan_protein": "PAN1072",
+    "has_length": 660,
+    "card_link": "https://card.mcmaster.ca/ontology/39117",
+    "pan_structure": "PAN1072_struct",
+    "file": "panres/PAN1072_struct.pdb.gz",
+    "mean_plddt": 94.6,
+    "residues": 219
+   },
+   {
+    "pan_gene": "pan_578",
+    "display_name": "pexA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_578",
+    "has_resistance_class": [
+     "Phenicol"
+    ],
+    "has_mechanism_of_resistance": [
+     "Increased_Efflux"
+    ],
+    "has_predicted_phenotype": [
+     "Amphenicol",
+     "Chloramphenicol",
+     "Florfenicol"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "PEXA",
+     "pexA",
+     "pexA_1_HM537013"
+    ],
+    "pan_protein": "PAN578",
+    "has_length": 1248,
+    "card_link": null,
+    "pan_structure": "PAN578_struct",
+    "file": "panres/PAN578_struct.pdb.gz",
+    "mean_plddt": 89.9,
+    "residues": 415
+   },
+   {
+    "pan_gene": "pan_1855",
+    "display_name": "cat",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1855",
+    "has_resistance_class": [
+     "Phenicol"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Amphenicol",
+     "Chloramphenicol"
+    ],
+    "is_from_database": [
+     "ARGANNOT",
+     "MegaRes",
+     "ResFinder",
+     "CARD"
+    ],
+    "same_as": [
+     "CAT",
+     "cat",
+     "Acla_ACT_CHL",
+     "cat_4_AY238971"
+    ],
+    "pan_protein": "PAN1855",
+    "has_length": 687,
+    "card_link": "https://card.mcmaster.ca/ontology/41663",
+    "pan_structure": "PAN1855_struct",
+    "file": "panres/PAN1855_struct.pdb.gz",
+    "mean_plddt": 85.0,
+    "residues": 228
+   },
+   {
+    "pan_gene": "pan_2173",
+    "display_name": "cml",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2173",
+    "has_resistance_class": [
+     "Phenicol"
+    ],
+    "has_mechanism_of_resistance": [
+     "Efflux_Pump"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "cml",
+     "cmlR",
+     "CMLR",
+     "Sliv_cmlR"
+    ],
+    "pan_protein": "PAN2173",
+    "has_length": 1179,
+    "card_link": "https://card.mcmaster.ca/ontology/39124",
+    "pan_structure": "PAN2173_struct",
+    "file": "panres/PAN2173_struct.pdb.gz",
+    "mean_plddt": 87.9,
+    "residues": 392
+   },
+   {
+    "pan_gene": "pan_1856",
+    "display_name": "cmlV",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1856",
+    "has_resistance_class": [
+     "Phenicol"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation",
+     "Increased_Efflux"
+    ],
+    "has_predicted_phenotype": [
+     "Chloramphenicol",
+     "Amphenicol"
+    ],
+    "is_from_database": [
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "cmlV_1_U09991",
+     "CMLV",
+     "cmlv",
+     "cmlV"
+    ],
+    "pan_protein": "PAN1856",
+    "has_length": 1311,
+    "card_link": "https://card.mcmaster.ca/ontology/39134",
+    "pan_structure": "PAN1856_struct",
+    "file": "panres/PAN1856_struct.pdb.gz",
+    "mean_plddt": 83.6,
+    "residues": 436
+   },
+   {
+    "pan_gene": "pan_1873",
+    "display_name": "fexA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1873",
+    "has_resistance_class": [
+     "Phenicol"
+    ],
+    "has_mechanism_of_resistance": [
+     "Increased_Efflux"
+    ],
+    "has_predicted_phenotype": [
+     "Chloramphenicol",
+     "Amphenicol",
+     "Florfenicol"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus"
+    ],
+    "same_as": [
+     "fexA_1_AJ549214",
+     "fexA",
+     "FEXA"
+    ],
+    "pan_protein": "PAN1873",
+    "has_length": 1428,
+    "card_link": null,
+    "pan_structure": "PAN1873_struct",
+    "file": "panres/PAN1873_struct.pdb.gz",
+    "mean_plddt": 90.6,
+    "residues": 475
+   },
+   {
+    "pan_gene": "pan_4335",
+    "display_name": "cpt",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4335",
+    "has_resistance_class": [
+     "Phenicol"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes"
+    ],
+    "same_as": [
+     "CPT",
+     "cpt"
+    ],
+    "pan_protein": "PAN4335",
+    "has_length": 531,
+    "card_link": null,
+    "pan_structure": "PAN4335_struct",
+    "file": "panres/PAN4335_struct.pdb.gz",
+    "mean_plddt": 95.9,
+    "residues": 176
+   },
+   {
+    "pan_gene": "pan_6721",
+    "display_name": "EstDL136",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6721",
+    "has_resistance_class": [
+     "Phenicol"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Amphenicol",
+     "Florfenicol",
+     "Chloramphenicol"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "EstDL136_1_JN242251",
+     "ESTD"
+    ],
+    "pan_protein": "PAN6721",
+    "has_length": 933,
+    "card_link": null,
+    "pan_structure": "PAN6721_struct",
+    "file": "panres/PAN6721_struct.pdb.gz",
+    "mean_plddt": 96.8,
+    "residues": 310
+   }
+  ],
+  "Folate_Pathway_Antagonist": [
+   {
+    "pan_gene": "pan_93",
+    "display_name": "dfrA10",
+    "panres_url": "https://panres.rambio.dk/#details/pan_93",
+    "has_resistance_class": [
+     "Folate_Pathway_Antagonist"
+    ],
+    "has_mechanism_of_resistance": [
+     "Purine_Synthesis"
+    ],
+    "has_predicted_phenotype": [
+     "Trimethoprim"
+    ],
+    "is_from_database": [
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "dfrA10_1_L06418",
+     "dfrA10",
+     "DFRA"
+    ],
+    "pan_protein": "PAN93",
+    "has_length": 564,
+    "card_link": null,
+    "pan_structure": "PAN93_struct",
+    "file": "panres/PAN93_struct.pdb.gz",
+    "mean_plddt": 89.3,
+    "residues": 187
+   },
+   {
+    "pan_gene": "pan_2242",
+    "display_name": "dfrI",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2242",
+    "has_resistance_class": [
+     "Folate_Pathway_Antagonist"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Trimethoprim"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "DFRI",
+     "dfrI"
+    ],
+    "pan_protein": "PAN2242",
+    "has_length": 576,
+    "card_link": null,
+    "pan_structure": "PAN2242_struct",
+    "file": "panres/PAN2242_struct.pdb.gz",
+    "mean_plddt": 89.9,
+    "residues": 191
+   },
+   {
+    "pan_gene": "pan_2266",
+    "display_name": "sul4",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2266",
+    "has_resistance_class": [
+     "Folate_Pathway_Antagonist"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Sulfonamide"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "SULI",
+     "sul4"
+    ],
+    "pan_protein": "PAN2266",
+    "has_length": 864,
+    "card_link": null,
+    "pan_structure": "PAN2266_struct",
+    "file": "panres/PAN2266_struct.pdb.gz",
+    "mean_plddt": 93.1,
+    "residues": 287
+   },
+   {
+    "pan_gene": "pan_4319",
+    "display_name": "dfrC",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4319",
+    "has_resistance_class": [
+     "Folate_Pathway_Antagonist"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Trimethoprim"
+    ],
+    "is_from_database": [
+     "ARGANNOT",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "DFRC",
+     "dfrC"
+    ],
+    "pan_protein": "PAN4319",
+    "has_length": 486,
+    "card_link": null,
+    "pan_structure": "PAN4319_struct",
+    "file": "panres/PAN4319_struct.pdb.gz",
+    "mean_plddt": 96.1,
+    "residues": 161
+   },
+   {
+    "pan_gene": "pan_4918",
+    "display_name": "dfrE",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4918",
+    "has_resistance_class": [
+     "Folate_Pathway_Antagonist"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Trimethoprim"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "dfrE",
+     "DFRE"
+    ],
+    "pan_protein": "PAN4918",
+    "has_length": 495,
+    "card_link": null,
+    "pan_structure": "PAN4918_struct",
+    "file": "panres/PAN4918_struct.pdb.gz",
+    "mean_plddt": 96.6,
+    "residues": 164
+   },
+   {
+    "pan_gene": "pan_6117",
+    "display_name": "DHFR",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6117",
+    "has_resistance_class": [
+     "Folate_Pathway_Antagonist"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Trimethoprim"
+    ],
+    "is_from_database": [
+     "ResFinderFG",
+     "MegaRes"
+    ],
+    "same_as": [
+     "DHFR",
+     "MG585979.1"
+    ],
+    "pan_protein": "PAN6117",
+    "has_length": 483,
+    "card_link": null,
+    "pan_structure": "PAN6117_struct",
+    "file": "panres/PAN6117_struct.pdb.gz",
+    "mean_plddt": 96.9,
+    "residues": 160
+   },
+   {
+    "pan_gene": "pan_6344",
+    "display_name": "dfrD",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6344",
+    "has_resistance_class": [
+     "Folate_Pathway_Antagonist"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Trimethoprim"
+    ],
+    "is_from_database": [
+     "ARGANNOT",
+     "MegaRes"
+    ],
+    "same_as": [
+     "dfrD",
+     "DFRD"
+    ],
+    "pan_protein": "PAN6344",
+    "has_length": 501,
+    "card_link": null,
+    "pan_structure": "PAN6344_struct",
+    "file": "panres/PAN6344_struct.pdb.gz",
+    "mean_plddt": 96.3,
+    "residues": 166
+   },
+   {
+    "pan_gene": "pan_6713",
+    "display_name": "sulR",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6713",
+    "has_resistance_class": [
+     "Folate_Pathway_Antagonist"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Sulfonamide"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "MegaRes"
+    ],
+    "same_as": [
+     "sulR",
+     "SULR"
+    ],
+    "pan_protein": "PAN6713",
+    "has_length": 585,
+    "card_link": null,
+    "pan_structure": "PAN6713_struct",
+    "file": "panres/PAN6713_struct.pdb.gz",
+    "mean_plddt": 89.6,
+    "residues": 194
+   }
+  ],
+  "Glycopeptide": [
+   {
+    "pan_gene": "pan_2227",
+    "display_name": "VanU",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2227",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "VAN",
+     "VanU",
+     "vanU_in_vanG_cl",
+     "vanU-G"
+    ],
+    "pan_protein": "PAN2227",
+    "has_length": 228,
+    "card_link": "https://card.mcmaster.ca/ontology/41417",
+    "pan_structure": "PAN2227_struct",
+    "file": "panres/PAN2227_struct.pdb.gz",
+    "mean_plddt": 91.9,
+    "residues": 75
+   },
+   {
+    "pan_gene": "pan_2132",
+    "display_name": "vanE",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2132",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "VANXYE",
+     "vanE"
+    ],
+    "pan_protein": "PAN2132",
+    "has_length": 1059,
+    "card_link": null,
+    "pan_structure": "PAN2132_struct",
+    "file": "panres/PAN2132_struct.pdb.gz",
+    "mean_plddt": 93.0,
+    "residues": 352
+   },
+   {
+    "pan_gene": "pan_2332",
+    "display_name": "vanR-M",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2332",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "vanR_in_vanM_cl",
+     "VANSM",
+     "vanR-M"
+    ],
+    "pan_protein": "PAN2332",
+    "has_length": 699,
+    "card_link": "https://card.mcmaster.ca/ontology/39362",
+    "pan_structure": "PAN2332_struct",
+    "file": "panres/PAN2332_struct.pdb.gz",
+    "mean_plddt": 89.1,
+    "residues": 232
+   },
+   {
+    "pan_gene": "pan_2258",
+    "display_name": "vanS-M",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2258",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "vanS_in_vanM_cl",
+     "VANSM",
+     "vanS-M"
+    ],
+    "pan_protein": "PAN2258",
+    "has_length": 1113,
+    "card_link": "https://card.mcmaster.ca/ontology/39373",
+    "pan_structure": "PAN2258_struct",
+    "file": "panres/PAN2258_struct.pdb.gz",
+    "mean_plddt": 84.8,
+    "residues": 370
+   },
+   {
+    "pan_gene": "pan_1851",
+    "display_name": "vanTm-L",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1851",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "vanTm_in_vanL",
+     "VANTML",
+     "vanTm-L"
+    ],
+    "pan_protein": "PAN1851",
+    "has_length": 990,
+    "card_link": "https://card.mcmaster.ca/ontology/39407",
+    "pan_structure": "PAN1851_struct",
+    "file": "panres/PAN1851_struct.pdb.gz",
+    "mean_plddt": 93.7,
+    "residues": 329
+   },
+   {
+    "pan_gene": "pan_2100",
+    "display_name": "vanX-Yc",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2100",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "MegaRes"
+    ],
+    "same_as": [
+     "vanX-Yc",
+     "VANXYC",
+     "vanXY-C",
+     "vanXY_in_vanC"
+    ],
+    "pan_protein": "PAN2100",
+    "has_length": 573,
+    "card_link": "https://card.mcmaster.ca/ontology/39400",
+    "pan_structure": "PAN2100_struct",
+    "file": "panres/PAN2100_struct.pdb.gz",
+    "mean_plddt": 95.7,
+    "residues": 190
+   },
+   {
+    "pan_gene": "pan_1458",
+    "display_name": "vanXE-Pp",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1458",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "VANYF",
+     "vanX-F",
+     "vanXE-Pp",
+     "vanX_in_vanF_cl"
+    ],
+    "pan_protein": "PAN1458",
+    "has_length": 672,
+    "card_link": "https://card.mcmaster.ca/ontology/39386",
+    "pan_structure": "PAN1458_struct",
+    "file": "panres/PAN1458_struct.pdb.gz",
+    "mean_plddt": 91.6,
+    "residues": 223
+   },
+   {
+    "pan_gene": "pan_1825",
+    "display_name": "vanXY-L",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1825",
+    "has_resistance_class": [
+     "Glycopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "ARGANNOT",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus"
+    ],
+    "same_as": [
+     "vanXY-L",
+     "VANXYL",
+     "vanXY_in_vanL"
+    ],
+    "pan_protein": "PAN1825",
+    "has_length": 582,
+    "card_link": "https://card.mcmaster.ca/ontology/39402",
+    "pan_structure": "PAN1825_struct",
+    "file": "panres/PAN1825_struct.pdb.gz",
+    "mean_plddt": 93.8,
+    "residues": 193
+   }
+  ],
+  "Polymyxin": [
+   {
+    "pan_gene": "pan_817",
+    "display_name": "mcr-3.9",
+    "panres_url": "https://panres.rambio.dk/#details/pan_817",
+    "has_resistance_class": [
+     "Polymyxin",
+     "Peptide",
+     "Lipopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Modification",
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [
+     "Colistin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "mcr-3.9",
+     "MCR-3.9",
+     "MCR",
+     "mcr-3.9_1_MF598080"
+    ],
+    "pan_protein": "PAN817",
+    "has_length": 1626,
+    "card_link": "https://card.mcmaster.ca/ontology/42217",
+    "pan_structure": "PAN817_struct",
+    "file": "panres/PAN817_struct.pdb.gz",
+    "mean_plddt": 94.6,
+    "residues": 541
+   },
+   {
+    "pan_gene": "pan_4106",
+    "display_name": "vph",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4106",
+    "has_resistance_class": [
+     "Peptide"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Tuberactinomycin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "VPH",
+     "vph"
+    ],
+    "pan_protein": "PAN4106",
+    "has_length": 864,
+    "card_link": null,
+    "pan_structure": "PAN4106_struct",
+    "file": "panres/PAN4106_struct.pdb.gz",
+    "mean_plddt": 92.5,
+    "residues": 287
+   },
+   {
+    "pan_gene": "pan_5848",
+    "display_name": "ArnT",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5848",
+    "has_resistance_class": [
+     "Peptide",
+     "Lipopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "ArnT",
+     "ARNT"
+    ],
+    "pan_protein": "PAN5848",
+    "has_length": 1656,
+    "card_link": "https://card.mcmaster.ca/ontology/43254",
+    "pan_structure": "PAN5848_struct",
+    "file": "panres/PAN5848_struct.pdb.gz",
+    "mean_plddt": 92.6,
+    "residues": 551
+   },
+   {
+    "pan_gene": "pan_5508",
+    "display_name": "Cper_mprF",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5508",
+    "has_resistance_class": [
+     "Peptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [
+     "Cationic_Antimicrobial_Peptide"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "Cper_mprF",
+     "MPRF"
+    ],
+    "pan_protein": "PAN5508",
+    "has_length": 1710,
+    "card_link": "https://card.mcmaster.ca/ontology/40447",
+    "pan_structure": "PAN5508_struct",
+    "file": "panres/PAN5508_struct.pdb.gz",
+    "mean_plddt": 83.9,
+    "residues": 569
+   },
+   {
+    "pan_gene": "pan_5757",
+    "display_name": "ICR-Mc",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5757",
+    "has_resistance_class": [
+     "Peptide",
+     "Lipopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "ICR-Mc",
+     "ICR"
+    ],
+    "pan_protein": "PAN5757",
+    "has_length": 1737,
+    "card_link": "https://card.mcmaster.ca/ontology/41682",
+    "pan_structure": "PAN5757_struct",
+    "file": "panres/PAN5757_struct.pdb.gz",
+    "mean_plddt": 89.1,
+    "residues": 578
+   },
+   {
+    "pan_gene": "pan_5181",
+    "display_name": "Lmon_mprF",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5181",
+    "has_resistance_class": [
+     "Peptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Antibiotic_Target_Alteration"
+    ],
+    "has_predicted_phenotype": [
+     "Cationic_Antimicrobial_Peptide"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "MPRF",
+     "Lmon_mprF"
+    ],
+    "pan_protein": "PAN5181",
+    "has_length": 2598,
+    "card_link": "https://card.mcmaster.ca/ontology/40442",
+    "pan_structure": "PAN5181_struct",
+    "file": "panres/PAN5181_struct.pdb.gz",
+    "mean_plddt": 86.0,
+    "residues": 865
+   },
+   {
+    "pan_gene": "pan_6312",
+    "display_name": "LpsA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6312",
+    "has_resistance_class": [
+     "Lipopeptide",
+     "Peptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Reduced_Permeability_To_Antibiotic"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "LPSA",
+     "LpsA"
+    ],
+    "pan_protein": "PAN6312",
+    "has_length": 771,
+    "card_link": "https://card.mcmaster.ca/ontology/43253",
+    "pan_structure": "PAN6312_struct",
+    "file": "panres/PAN6312_struct.pdb.gz",
+    "mean_plddt": 93.4,
+    "residues": 256
+   },
+   {
+    "pan_gene": "pan_5734",
+    "display_name": "LpsB",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5734",
+    "has_resistance_class": [
+     "Peptide",
+     "Lipopeptide"
+    ],
+    "has_mechanism_of_resistance": [
+     "Reduced_Permeability_To_Antibiotic"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "LPSB",
+     "LpsB"
+    ],
+    "pan_protein": "PAN5734",
+    "has_length": 1101,
+    "card_link": "https://card.mcmaster.ca/ontology/43252",
+    "pan_structure": "PAN5734_struct",
+    "file": "panres/PAN5734_struct.pdb.gz",
+    "mean_plddt": 95.7,
+    "residues": 366
+   }
+  ],
+  "Fosfomycin": [
+   {
+    "pan_gene": "pan_958",
+    "display_name": "fomA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_958",
+    "has_resistance_class": [
+     "Fosfomycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "fomA_1_AB016934",
+     "fomA",
+     "FOMA",
+     "FomA"
+    ],
+    "pan_protein": "PAN958",
+    "has_length": 801,
+    "card_link": null,
+    "pan_structure": "PAN958_struct",
+    "file": "panres/PAN958_struct.pdb.gz",
+    "mean_plddt": 89.5,
+    "residues": 266
+   },
+   {
+    "pan_gene": "pan_651",
+    "display_name": "fosA2",
+    "panres_url": "https://panres.rambio.dk/#details/pan_651",
+    "has_resistance_class": [
+     "Fosfomycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "FosA2",
+     "fosA2",
+     "fosA2_1_EU487198",
+     "FOSA"
+    ],
+    "pan_protein": "PAN651",
+    "has_length": 426,
+    "card_link": null,
+    "pan_structure": "PAN651_struct",
+    "file": "panres/PAN651_struct.pdb.gz",
+    "mean_plddt": 96.5,
+    "residues": 141
+   },
+   {
+    "pan_gene": "pan_340",
+    "display_name": "fosC",
+    "panres_url": "https://panres.rambio.dk/#details/pan_340",
+    "has_resistance_class": [
+     "Fosfomycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus"
+    ],
+    "same_as": [
+     "fosC",
+     "FosC",
+     "fosC_1_Z33413",
+     "FOSC"
+    ],
+    "pan_protein": "PAN340",
+    "has_length": 549,
+    "card_link": null,
+    "pan_structure": "PAN340_struct",
+    "file": "panres/PAN340_struct.pdb.gz",
+    "mean_plddt": 90.4,
+    "residues": 182
+   },
+   {
+    "pan_gene": "pan_1085",
+    "display_name": "fosK",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1085",
+    "has_resistance_class": [
+     "Fosfomycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "FOSK",
+     "fosK",
+     "fosK_1_AB917040",
+     "FosK"
+    ],
+    "pan_protein": "PAN1085",
+    "has_length": 399,
+    "card_link": null,
+    "pan_structure": "PAN1085_struct",
+    "file": "panres/PAN1085_struct.pdb.gz",
+    "mean_plddt": 96.8,
+    "residues": 132
+   },
+   {
+    "pan_gene": "pan_1972",
+    "display_name": "FomB",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1972",
+    "has_resistance_class": [
+     "Fosfomycin"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "ARGANNOT",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus"
+    ],
+    "same_as": [
+     "FOMB",
+     "FomB",
+     "fomB"
+    ],
+    "pan_protein": "PAN1972",
+    "has_length": 993,
+    "card_link": null,
+    "pan_structure": "PAN1972_struct",
+    "file": "panres/PAN1972_struct.pdb.gz",
+    "mean_plddt": 94.1,
+    "residues": 330
+   },
+   {
+    "pan_gene": "pan_2178",
+    "display_name": "fosX",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2178",
+    "has_resistance_class": [
+     "Fosfomycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "ARGANNOT",
+     "ResFinder",
+     "MegaRes"
+    ],
+    "same_as": [
+     "FOSX",
+     "fosX_gen",
+     "FosX",
+     "fosX_1_AP010904"
+    ],
+    "pan_protein": "PAN2178",
+    "has_length": 465,
+    "card_link": null,
+    "pan_structure": "PAN2178_struct",
+    "file": "panres/PAN2178_struct.pdb.gz",
+    "mean_plddt": 93.1,
+    "residues": 154
+   },
+   {
+    "pan_gene": "pan_2844",
+    "display_name": "fosM3",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2844",
+    "has_resistance_class": [
+     "Fosfomycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Phosphonic_Acid"
+    ],
+    "is_from_database": [
+     "CARD",
+     "AMRFinderPlus",
+     "MegaRes"
+    ],
+    "same_as": [
+     "FOSM",
+     "FosM3",
+     "fosM3"
+    ],
+    "pan_protein": "PAN2844",
+    "has_length": 429,
+    "card_link": "https://card.mcmaster.ca/ontology/45665",
+    "pan_structure": "PAN2844_struct",
+    "file": "panres/PAN2844_struct.pdb.gz",
+    "mean_plddt": 95.7,
+    "residues": 142
+   },
+   {
+    "pan_gene": "pan_4275",
+    "display_name": "fusD",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4275",
+    "has_resistance_class": [
+     "Fosfomycin"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Fusidic_Acid"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "fusD",
+     "FUSD"
+    ],
+    "pan_protein": "PAN4275",
+    "has_length": 642,
+    "card_link": null,
+    "pan_structure": "PAN4275_struct",
+    "file": "panres/PAN4275_struct.pdb.gz",
+    "mean_plddt": 94.7,
+    "residues": 213
+   }
+  ],
+  "Rifamycin": [
+   {
+    "pan_gene": "pan_1733",
+    "display_name": "iri",
+    "panres_url": "https://panres.rambio.dk/#details/pan_1733",
+    "has_resistance_class": [
+     "Rifamycin"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Rifampin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus",
+     "ARGANNOT"
+    ],
+    "same_as": [
+     "iri",
+     "IRI"
+    ],
+    "pan_protein": "PAN1733",
+    "has_length": 1440,
+    "card_link": null,
+    "pan_structure": "PAN1733_struct",
+    "file": "panres/PAN1733_struct.pdb.gz",
+    "mean_plddt": 94.5,
+    "residues": 479
+   },
+   {
+    "pan_gene": "pan_2383",
+    "display_name": "rph",
+    "panres_url": "https://panres.rambio.dk/#details/pan_2383",
+    "has_resistance_class": [
+     "Rifamycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Rifampin"
+    ],
+    "is_from_database": [
+     "ARGANNOT",
+     "MegaRes",
+     "CARD",
+     "AMRFinderPlus"
+    ],
+    "same_as": [
+     "rph",
+     "RPH",
+     "rphA"
+    ],
+    "pan_protein": "PAN2383",
+    "has_length": 2598,
+    "card_link": "https://card.mcmaster.ca/ontology/36583",
+    "pan_structure": "PAN2383_struct",
+    "file": "panres/PAN2383_struct.pdb.gz",
+    "mean_plddt": 90.1,
+    "residues": 864
+   },
+   {
+    "pan_gene": "pan_4681",
+    "display_name": "rgt1438",
+    "panres_url": "https://panres.rambio.dk/#details/pan_4681",
+    "has_resistance_class": [
+     "Rifamycin"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Rifampin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "RGT",
+     "rgt1438"
+    ],
+    "pan_protein": "PAN4681",
+    "has_length": 1236,
+    "card_link": null,
+    "pan_structure": "PAN4681_struct",
+    "file": "panres/PAN4681_struct.pdb.gz",
+    "mean_plddt": 93.3,
+    "residues": 411
+   },
+   {
+    "pan_gene": "pan_5881",
+    "display_name": "RbpA",
+    "panres_url": "https://panres.rambio.dk/#details/pan_5881",
+    "has_resistance_class": [
+     "Rifamycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Target_Protection"
+    ],
+    "has_predicted_phenotype": [
+     "Rifampin"
+    ],
+    "is_from_database": [
+     "CARD",
+     "MegaRes"
+    ],
+    "same_as": [
+     "RBPA",
+     "RbpA"
+    ],
+    "pan_protein": "PAN5881",
+    "has_length": 345,
+    "card_link": "https://card.mcmaster.ca/ontology/36384",
+    "pan_structure": "PAN5881_struct",
+    "file": "panres/PAN5881_struct.pdb.gz",
+    "mean_plddt": 81.3,
+    "residues": 114
+   },
+   {
+    "pan_gene": "pan_6291",
+    "display_name": "arr-2b",
+    "panres_url": "https://panres.rambio.dk/#details/pan_6291",
+    "has_resistance_class": [
+     "Rifamycin"
+    ],
+    "has_mechanism_of_resistance": [],
+    "has_predicted_phenotype": [
+     "Rifampin"
+    ],
+    "is_from_database": [
+     "AMRFinderPlus",
+     "MegaRes"
+    ],
+    "same_as": [
+     "arr-2b",
+     "ARR"
+    ],
+    "pan_protein": "PAN6291",
+    "has_length": 414,
+    "card_link": null,
+    "pan_structure": "PAN6291_struct",
+    "file": "panres/PAN6291_struct.pdb.gz",
+    "mean_plddt": 83.7,
+    "residues": 137
+   },
+   {
+    "pan_gene": "pan_7132",
+    "display_name": "rphB",
+    "panres_url": "https://panres.rambio.dk/#details/pan_7132",
+    "has_resistance_class": [
+     "Rifamycin"
+    ],
+    "has_mechanism_of_resistance": [
+     "Enzymatic_Inactivation"
+    ],
+    "has_predicted_phenotype": [
+     "Rifampin"
+    ],
+    "is_from_database": [
+     "MegaRes",
+     "CARD"
+    ],
+    "same_as": [
+     "RPH",
+     "rphB"
+    ],
+    "pan_protein": "PAN7132",
+    "has_length": 2655,
+    "card_link": "https://card.mcmaster.ca/ontology/40874",
+    "pan_structure": "PAN7132_struct",
+    "file": "panres/PAN7132_struct.pdb.gz",
+    "mean_plddt": 89.1,
+    "residues": 884
+   }
+  ]
+ }
+}

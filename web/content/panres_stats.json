@@ -1,0 +1,35 @@
+{
+ "snapshot": "2026-11-02",
+ "panres_json_sha256": "532a4a373d8b386d3bdb3afa06b74e1501d2dc726cba5d7228e1d8fbda0eda15",
+ "original_genes": 20234,
+ "pan_genes": 11717,
+ "amr_genes": 10805,
+ "metal_genes": 559,
+ "biocide_genes": 121,
+ "structures": 1703,
+ "resistance_classes": 41,
+ "databases": [
+  "AMRFinderPlus",
+  "ARGANNOT",
+  "CARD",
+  "CsabaPal",
+  "MegaRes",
+  "MetalRes",
+  "ResFinder",
+  "ResFinderFG"
+ ],
+ "mechanism_annotated": 4788,
+ "mechanisms": {
+  "Enzymatic_Inactivation": 3826,
+  "Target_Protection": 261,
+  "Enzymatic_Modification": 220,
+  "Efflux_Pump": 189,
+  "Target_Modification": 146,
+  "Antibiotic_Target_Alteration": 143,
+  "Purine_Synthesis": 103,
+  "Increased_Efflux": 61,
+  "Antibiotic_Target_Replacement": 13,
+  "Reduced_Permeability_To_Antibiotic": 8,
+  "Ribosylation": 1
+ }
+}

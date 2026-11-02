@@ -1,0 +1,127 @@
+{
+  "papers": [
+    {
+      "key": "panres",
+      "doi": "10.1093/bioinformatics/btag776",
+      "url": "https://doi.org/10.1093/bioinformatics/btag776",
+      "cover": null,
+      "title": "PanRes: a database of latent and acquired antimicrobial resistance allowing 3D-based protein homology search",
+      "authors": [
+        "Vojtková",
+        "Baltušis",
+        "Martiny",
+        "Baral",
+        "Pyrounakis",
+        "Beleon",
+        "Freitag",
+        "Pico-Tomàs",
+        "Kaas",
+        "Petersen",
+        "Munk"
+      ],
+      "journal": "Bioinformatics (Oxford, England)",
+      "year": 2026,
+      "abstract": "<h4>Motivation</h4>Antimicrobial resistance databases are central to genomic surveillance, but resistance determinants remain distributed across resources with different scopes, structures, and annotations.<h4>Results</h4>We developed PanRes, a curated resistance database of 11 717 genes integrating acquired and latent determinants of antibiotic, biocide, and metal resistance within a unified ontology. We predicted representative protein structures and clustered them by structural similarity, grouping proteins into 505 high-confidence structurally conserved clusters coherent despite sequence divergence. Their structure-guided alignments were used to build Hidden Markov Models (HMMs) for remote homology search. In seven wastewater metagenomes from five European cities, PanRes 3D-based HMMs expanded detection beyond what was possible with BLAST, with 35.3% of retained hits identified only by the HMMs and generally showing greater divergence from known proteins. For beta-lactamases, several proteins retained beta-lactamase-like folds and catalytic geometry despite weak sequence similarity.<h4>Availability and implementation</h4>PanRes is available through an interactive web platform (https://panres.rambio.dk/), a structure-informed resource for exploring the whole resistome. The database, HMM profiles, and ontology are available at Zenodo (10.5281/zenodo.22876216)."
+    },
+    {
+      "key": "martiny2025",
+      "doi": "10.1038/s41467-025-66070-7",
+      "url": "https://doi.org/10.1038/s41467-025-66070-7",
+      "cover": "research/martiny2025.jpg",
+      "title": "Geographics and bacterial networks differently shape the acquired and latent global sewage resistomes",
+      "authors": [
+        "Martiny",
+        "Munk",
+        "Fuschi",
+        "Becsei",
+        "Pyrounakis",
+        "Brinch",
+        "Global Sewage Consortium",
+        "Larsson",
+        "Koopmans",
+        "Remondini",
+        "Csabai",
+        "Aarestrup"
+      ],
+      "journal": "Nature communications",
+      "year": 2025,
+      "abstract": "Antimicrobial resistance genes (ARGs) have rapidly emerged and spread globally, but the pathways driving their spread remain poorly understood. We analyzed 1240 sewage samples from 351 cities across 111 countries, comparing ARGs known to be mobilized with those identified through functional metagenomics (FG). FG ARGs showed stronger associations with bacterial taxa than the acquired ARGs. Network analyses further confirmed this and showed potential for source attribution of both known and novel ARGs. The FG resistome was more evenly dispersed globally, whereas the acquired resistome followed distinct geographical patterns. City-wise distance-decay analyses revealed that the FG ARGs showed significant decay within countries but not across regions or globally. In contrast, acquired ARGs showed decay at both national and regional scales. At the variant level, both ARG groups had significant national and regional distance-decay effects, but only FG ARGs at a global scale. Additionally, we observed stronger distance effects in Sub-Saharan Africa and East Asia compared to North America. Our findings suggest that differential selection and niche competition, rather than dispersal, shape the global resistome patterns. A limited number of bacterial taxa may act as reservoirs of latent FG ARGs, highlighting the need of targeted surveillance to mitigate future resistance threats."
+    },
+    {
+      "key": "flankophile",
+      "doi": "10.1128/spectrum.02413-23",
+      "url": "https://doi.org/10.1128/spectrum.02413-23",
+      "cover": null,
+      "title": "Flankophile: a bioinformatic pipeline for prokaryotic genomic synteny analysis",
+      "authors": [
+        "Thorn",
+        "Aarestrup",
+        "Munk"
+      ],
+      "journal": "Microbiology spectrum",
+      "year": 2024,
+      "abstract": "<h4>Importance</h4>The Flankophile pipeline enables the analysis and visualization of flanking regions of prokaryotic sequences of interest on large data sets in one step and in a consistent manner. A specific tool for flanking region analysis with automated visualization has not been developed before, and Flankophile will make flanking region analysis easier and accessible to more people. Flankophile will be especially useful in the field of genomic epidemiology of acquired antimicrobial resistance genes. Here, information from flanking region sequences can be instrumental in rejecting or supporting the possibility of a recent common source of the same resistance gene found in different samples."
+    },
+    {
+      "key": "mgcalibrator",
+      "doi": "10.64898/2026.02.26.708180",
+      "url": "https://doi.org/10.64898/2026.02.26.708180",
+      "cover": "research/mgcalibrator.jpg",
+      "title": "Calibrating for absolute microbiome abundances without spike-ins",
+      "authors": [
+        "de Wit",
+        "Baral",
+        "Fuschi",
+        "Jacobs",
+        "de Rijk",
+        "van der Plaats",
+        "Becsei",
+        "Kerkvliet",
+        "Freitag",
+        "Vojtková",
+        "Brinch",
+        "Schmitt",
+        "Munk"
+      ],
+      "journal": "bioRxiv",
+      "year": 2026,
+      "abstract": "Metagenomics is a widely used approach in microbiome research. However, a major limitation of metagenomic datasets is their compositional nature, which prevents direct quantification of absolute abundances and complicates cross-sample comparisons. Existing strategies for absolute quantification typically require additional experiments or spike-in controls. Here, we introduce the MetaGenome Calibrator (MGCalibrator), a new tool that enables spike-in free, absolute abundance estimation based on routine DNA concentration measurements. We validated the accuracy of absolute abundances obtained with MGCalibrator against qPCR for 5 targets. Our results show a strong correlation with qPCR data, indicating that MGCalibrator enables qPCR-like trend analyses. For Bacteroides dorei , the estimated abundances were highly similar between the two methods (r2 = 0.98, y = 1.00x). For other targets like crAssphage or the bacterial 16S rRNA gene, qPCR values were underrepresented by a factor of 7 or overrepresented by a factor of 4. Benchmarking with synthetic microbiome data demonstrated that our method accurately determines copy numbers in sequencing datasets, and application to whole-cell mock community samples produced expected values based on known extraction biases. In an extraction-bias-free experiment, MGCalibrator accurately quantified genome copy numbers within a twofold range in 98% of cases and determined 16S rRNA gene copies within 1.6-fold or less. Finally, we applied MGCalibrator to track temporal trends in antibiotic resistance genes (ARGs) in wastewater treatment plants in two Dutch provincial capitals. We observed an overall increase in ARGs—such as sul2 in Utrecht and qnrS5 in Houtrust—likely driven by rising bacterial loads. Our findings demonstrate that MGCalibrator provides robust calibration of metagenomic data, paving the way for metagenomics to play a central role in future surveillance by enabling trend analysis across thousands of genetic targets, similar to the capabilities of qPCR for individual genes. The source code and documentation for MGCalibrator are available at github.com/NimroddeWit/MGCalibrator."
+    }
+  ],
+  "videos": [
+    {
+      "id": "RNFKp5EkKZc",
+      "title": "Antibiotika er våben som mikrober opfandt: Haglgeværer og rifler vi mennesker bruger som medicin",
+      "author": "Patrick Munk",
+      "thumb": "videos/RNFKp5EkKZc.jpg"
+    },
+    {
+      "id": "535AlIEkoDc",
+      "title": "Analyse af mikrobiomer er som at samle kæmpe, blandede LEGO-puslespil",
+      "author": "Patrick Munk",
+      "thumb": "videos/535AlIEkoDc.jpg"
+    },
+    {
+      "id": "QEgtueCSCds",
+      "title": "Hvem har den sejeste lort? Vi læser bakteriernes DNA for at se hvem der bor inde i os!",
+      "author": "Patrick Munk",
+      "thumb": "videos/QEgtueCSCds.jpg"
+    }
+  ],
+  "links": [
+    {
+      "key": "stopamr",
+      "url": "https://stopamr.dk",
+      "label": "stopAMR.dk"
+    },
+    {
+      "key": "alliancen",
+      "url": "https://amr-alliancen.dk",
+      "label": "AMR-alliancen"
+    }
+  ],
+  "site": {
+    "url": "https://rambio.dk",
+    "image": "research/site.jpg"
+  }
+}
