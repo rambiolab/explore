@@ -52,7 +52,7 @@ Web-first immersive AMR exhibition, served on a rambio.dk subdomain. Rebuild of 
 - Education room behind the centre south door of the hub: YouTube screens (thumbnail → in-page youtube-nocookie overlay) and link panels to stopAMR.dk and amr-alliancen.dk.
 
 ### Hosting (2026-11-02)
-- GitHub Pages from the public repo `rambiolab/explore`. `.github/workflows/pages.yml` publishes `web/` on every push to `main`. `web/CNAME` sets `explore.rambio.dk`; DNS needs a CNAME record `explore` → `rambiolab.github.io`.
+- GitHub Pages from the public repo `rambiolab/explore`. `.github/workflows/pages.yml` publishes `web/` on every push to `main`. The custom domain `explore.rambio.dk` is set in repo Settings → Pages (Actions deploys ignore a CNAME file). DNS: a CNAME record `explore` → `rambiolab.github.io`.
 - The interview notes and original poster PDFs in the repo root are gitignored and stay local.
 
 ## Layout
